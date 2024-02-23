@@ -31,17 +31,25 @@ Before running this program, ensure you have Python installed on your system. Yo
 
 Run the program using the following command:
 
-    ```
+    
     python find_centroid.py city1,city2,city3,...
-    ```
+    
 
 Replace `city1,city2,city3,...` with the comma-separated list of city names for which you want to find the centroid.
 
 Example:
     
-    ```
-    python main.py London,Paris,Berlin
-    ```
+    python find_centroid.py London,Paris,Berlin
+    2024-02-23 17:11:13,187 - INFO - Finding coordinates of London
+    2024-02-23 17:11:13,505 - INFO - Finding coordinates of Paris
+    2024-02-23 17:11:13,982 - INFO - Finding coordinates of Berlin
+
+
+    Centroid coordinates: [50.95328836666667, 5.197732105157438]
+
+
+    The closest city to the centroid is: 11, Minstraat, Schulen, Herk-de-Stad, Hasselt, Limburg, 3540, België / Belgique / Belgien
+    
 
 
 This will calculate the centroid of London, Paris, and Berlin, and find the closest city to that centroid globally.
